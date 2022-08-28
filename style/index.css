@@ -1,9 +1,10 @@
 /* main */
 body {
-    margin: 0;
+    margin: auto;
     background-color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-size: cover;
+    background-size:auto;
+    
 }
 
 /* nav-main */
@@ -15,6 +16,7 @@ body {
     display: flex;
     flex-direction: row;
     position: fixed;
+    min-width: 767px;
     width: 100%;
 }
 .nav.scrolled {
@@ -79,6 +81,7 @@ body {
     flex-direction: column;
     width: 20%;
     justify-content: center;
+    min-width: 0px;
 }
 
 /* nav--menu-bar */
@@ -87,20 +90,22 @@ body {
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-left: auto;
-    margin-right: -35px;
+    max-width: 767px;
+    min-width: 564px;
 }
 
 .nv4-1 {
     display: flex;
     justify-content: center;
     margin-top: auto;
-    margin-right: -40px;
+    max-width: 767px;
+
 }
 
 .nv4-ul {
     list-style-type: none;
     text-align: center;
+    min-width: 540px;
 }
 
 .nv4btn a {
@@ -156,14 +161,15 @@ body {
     display: flex;
     flex-direction: column;
     width: 6%;
-    margin-right: 17px;
-    margin-left: -18px;
+    max-width: 767px;
+    min-width: 90px;
 }
 
 .nvscl1 {
     display: flex;
     text-align: center;
     margin-top: auto;
+    max-width: 767px;
 
 }
 
@@ -197,15 +203,11 @@ body {
     background-image: url(/media/6M8G.gif);
     background-repeat: no-repeat;
     background-size: auto 100%;
+    background-position-x: -20px;
     margin-top: 27px;
-}
-
-.pic {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    text-align: center;
-    margin-top: 21px;
+    min-width: 832px;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 
@@ -213,10 +215,10 @@ body {
 .ttx {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    margin-right: auto;
     margin-top: 21px;
-    margin-left: 27px;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
 }
 
 .ttx-1 {
@@ -230,6 +232,7 @@ body {
     flex-direction: column;
     color: rgba(0, 0, 0, 0.853);
     text-shadow: 3px 3px 6px rgba(91, 91, 91, 0.546);
+    justify-content: center;
 }
 
 .ttx-2 span {
@@ -271,39 +274,43 @@ body {
     width: 100%;
     display: flex;
     flex-direction:row ;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     height: auto;
 }
 
 .media {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    max-width: 767px;
+    width: 60%;
     background-image: url(/media/notepad-g6899cf114_1920\ kopyala.jpg);
     background-repeat: no-repeat;
     background-size: auto 380px;
+    background-position: center;
     height: 380px;
-    margin-left: 125px;
+    justify-content: center;
+    
 }
+
 
 .p_ {
     margin-top: 4px;
-    margin-left: 13px;
+    margin-left: 17px;
     font-size: 16px;
     font-style: italic;
     color: rgba(0, 0, 0, 0.853);
-    width: 30%;
+    width: 20%;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .p_2 {
     margin-top: 4px;
-    margin-left: 90px;
+    margin-left: 125px;
     font-size: 16px;
     font-style: italic;
     color: rgba(0, 0, 0, 0.853);
-    width: 30%;
+    width: 25%;
     font-family: 'Times New Roman', Times, serif;
     
 }
@@ -319,6 +326,8 @@ body {
     flex-direction: row;
     width: 85%;
     background-color: #fff;
+    min-width: 1074px;
+    max-width: 1113;
 }
 
 .cr1 {
@@ -665,7 +674,7 @@ body {
     width: 20%;
     justify-content: center;
     margin-right: 0;
-
+    min-width: 236px;
 }
 .ftrscl-ul i {
     font-size: 27px;
