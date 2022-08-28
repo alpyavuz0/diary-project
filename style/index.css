@@ -263,116 +263,50 @@ body {
 
 .wwr-txt span {
     text-align: center;
-    font-size: 24px;
+    font-size: 36px;
 }
-
-.welcome2 {
-    display: flex;
-    flex-direction: row;
+/* welcome - end */
+/* opening --  */
+.open {
     width: 100%;
-    justify-content: center;
-}
-
-.wwt {
     display: flex;
-    flex-direction: row;
-    width: 85%;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.wwt-txt {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-align: start;
-    width: 40%;
-    color: rgba(0, 0, 0, 0.853);
-    font-weight: 600;
-    font-size: 18px;
-    text-indent: 2px;
-    margin-left: 100px;
-}
-
-.wwt-pic {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin-left: auto;
-}
-
-.wwt-pic span {
-    margin-left: 100px;
-}
-
-.wwt-pic span img {
-    width: 250px;
-    border-radius: 15px;
-    border: 0;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.853);
-}
-
-.wwt-btn {
-    margin-top: 31px;
-}
-
-.wwt-btn-s {
-    display: flex;
-    flex-direction: column;
+    flex-direction:row ;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    border-style: none;
-    width: 130px;
-    height: 35px;
-    background-color: rgba(255, 241, 9, 0.853);
-    box-shadow: 0px 8px 15px rgba(222, 164, 57, 0.635);
-    font-size: 11px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    color: #000;
-    border: none;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    height: auto;
 }
 
-.wwt-btn-s a {
-    color: rgba(0, 0, 0, 0.853);
-    text-decoration: none;
-}
-
-.wwt-btn-s:hover {
-    background-color: rgba(7, 152, 222, 0.763);
-    box-shadow: 0px 15px 20px rgba(48, 78, 195, 0.611);
-    color: #000;
-    transform: translateY(-7px);
-}
-
-.wwt-btn-s:hover a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* welcome - end */
-/* ara--baslık */
-.arbslk {
+.media {
     display: flex;
     flex-direction: row;
-    width: 85%;
-    justify-content: start;
-    color: #282327;
-    margin-top: 50px;
+    width: 50%;
+    background-image: url(/media/notepad-g6899cf114_1920\ kopyala.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 380px;
+    height: 380px;
+    margin-left: 125px;
 }
 
-.arbslk span {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+.p_ {
+    margin-top: 4px;
+    margin-left: 13px;
+    font-size: 16px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.853);
+    width: 30%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
+.p_2 {
+    margin-top: 4px;
+    margin-left: 90px;
+    font-size: 16px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.853);
+    width: 30%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
 /* card -- */
 .c_card {
     display: flex;
@@ -674,95 +608,9 @@ body {
     width: 100%;
     height: auto;
     justify-content: center;
-background-image: url(/media/);
 }
 
-.dstk_card {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    justify-content: flex-start;
-    margin-left: auto;
-    margin-bottom: 21px;
-    padding-bottom: 15px;
-}
-.dstk_card span {
-    display: flex;
-    flex-direction: column;
-    color: rgba(0, 0, 0, 0.853);
-    text-shadow: 1px 1px 3px rgba(91, 91, 91, 0.546);
-    text-align: center;
-    font-size: 44px;
-    margin-left: 50px;
-    width: 30%;
-    justify-content: center;
-    margin-right: -30px;
-}
-.dstk_card form {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    color: rgba(0, 0, 0, 0.853);
-    text-shadow: 1px 1px 1px rgba(91, 91, 91, 0.546);
-    font-size: 14px;
-    margin-left: 184px;
-}
-.dstk_card form textarea {
-    width: 440px;
-    border: 1px solid rgba(32, 32, 32, 0.511);
-    background-color: rgb(227, 227, 227, 0.6);
-    border-radius: 10px;
-    margin-top: 5px;
-    padding-left: 13px;
-    padding-top: 13px;
-    padding-right: 13px;
-}
-.dstk_card form input {
-    width: 430px;
-    height: 27px;
-    border: 1px solid rgba(32, 32, 32, 0.511);
-    background-color: rgb(227, 227, 227, 0.6);
-    border-radius: 10px;
-    margin-top: 5px;
-    padding-left: 13px;
-    padding-right: 13px;
-    
-}
 
-.dstk_card form button {
-    width: 74px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: 17px;
-    background-color: rgba(255, 241, 9, 0.853);
-    border: 0;
-    border-radius: 10px;
-    height: 35px;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-    letter-spacing: 0.5px;
-    box-shadow: 0px 8px 15px rgba(222, 164, 57, 0.635);
-    font-size: 11px;
-    font-weight: 500;
-    text-transform: uppercase;
-
-}
-.dstk_card form button:hover {
-    background-color: rgba(7, 152, 222, 0.763);
-    box-shadow: 0px 15px 20px rgba(48, 78, 195, 0.611);
-    transform: translateY(0px);
-}
-.dstk_card form button a {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.853);
-}
-.dstk_card form button:hover a {
-    color: #fff;
-    text-decoration: none;
-}
 /* container-4 -- end */
 
 /* footer-- */
