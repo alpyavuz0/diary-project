@@ -10,7 +10,7 @@ body {
 /* nav-main */
 .nav {
     margin-top: 0px;
-    height: 74px;
+    height: 54px;
     background-color: rgb(227, 227, 227);
     border-bottom: 2px solid #282327;
     display: flex;
@@ -46,7 +46,7 @@ body {
     border-radius: 5px;
     border-style: none;
     width: 100px;
-    height: 54px;
+    height: 44px;
     background-color: rgba(227, 227, 227);
     font-size: 18px;
     font-weight: 500;
@@ -92,6 +92,7 @@ body {
     width: 50%;
     max-width: 767px;
     min-width: 564px;
+    justify-content: center;
 }
 
 .nv4-1 {
@@ -163,6 +164,7 @@ body {
     width: 6%;
     max-width: 767px;
     min-width: 90px;
+    justify-content: center;
 }
 
 .nvscl1 {
