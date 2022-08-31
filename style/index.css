@@ -755,9 +755,11 @@ body {
 
 .dropdown-links a {
     text-decoration: none;
-    color: rgb(0, 0, 0, .3);
+    color: rgb(0, 0, 0, .7);
 }
-
+.dropdown-links a:hover {
+    color: rgba(0, 0, 0, 0.3);
+}
 /* changeColor nav scrolled */
 
 .changeColor {

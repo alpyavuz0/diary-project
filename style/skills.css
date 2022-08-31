@@ -3,7 +3,7 @@
     margin: 0;
     display: block;
     height: auto;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Poppins', sans-serif;
 }
 
 /* nav-main */
@@ -234,7 +234,7 @@
     display: flex;
     flex-direction: column;
     width: 75%;
-    margin-top: 21px;
+    margin-top: calc(21px + 1.5rem);
     border: 2px solid rgb(227, 227, 227,0.1);
     box-shadow:0px 8px 13px rgba(32, 32, 32, 0.511);
     border-radius: 4px;
@@ -346,12 +346,13 @@
 .top-pnl    {
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: autp;
     border: 2px solid rgb(227, 227, 227,0.1);
     box-shadow:0px 8px 13px rgba(32, 32, 32, 0.511);
     border-radius: 4px;
     width: 250px;
     align-items: center;
+    margin-top: 1.5rem;
 
     
 }
@@ -427,7 +428,7 @@
 .bot-panel {
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: auto;
     border: 2px solid rgb(227, 227, 227,0.1);
     box-shadow:0px 8px 13px rgba(32, 32, 32, 0.511);
     border-radius: 4px;
@@ -441,18 +442,19 @@
     display: flex;
     flex-direction: row;
     font-size: 12px;
-    margin-left: 12px;
     color: rgb(0,0,0,0.7);
     text-shadow: 0px 4px 8px rgba(32, 32, 32, 0.511);
+    margin: 1.5rem 12px;
+    margin-top: -.3rem;
 }
 
 #sp5 {
-    margin-top: -10px;
     font-size: 11px;
     margin-left: -15px;
 }
 #sp5 ul {
     list-style-type: none;
+    margin-top: -1.5rem;
 }
 #sp5 a {
     text-decoration: none;
@@ -461,7 +463,6 @@
 }
 
 #sp5 li {
-    margin-bottom: -7px;
 }
 #sp5 a:hover {
     text-decoration: underline;
