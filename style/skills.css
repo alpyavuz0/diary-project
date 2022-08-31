@@ -10,13 +10,16 @@
 .nav {
     margin-top: 0px;
     height: 54px;
-    background-color: rgb(227, 227, 227);
+    background-color: #fff;
     border-bottom: 2px solid #282327;
     display: flex;
     flex-direction: row;
     position: fixed;
     min-width: 767px;
     width: 100%;
+    transition: 200ms ease-in-out background-color,
+    200ms ease-in-out color;
+    font-size: 1rem;
 }
 
 /* nav-logo */
@@ -43,7 +46,7 @@
     border-style: none;
     width: 100px;
     height: 44px;
-    background-color: rgba(227, 227, 227);
+    background-color: rgba(227, 227, 227, 0);
     font-size: 18px;
     font-weight: 500;
     color: #000;
@@ -61,10 +64,7 @@
 }
 
 .logo-btn:hover {
-    background-color: rgba(255, 255, 255, 0.763);
-    box-shadow: 0px 15px 20px rgba(32, 32, 32, 0.511);
-    color: #000;
-    transform: translateY(-7px);
+    color: rgba(222, 164, 57, 0.635);
 }
 
 .logo-btn:hover a {
@@ -121,7 +121,7 @@
     border-style: none;
     width: 85px;
     height: 35px;
-    background-color: rgba(227, 227, 227);
+    background-color: rgba(227, 227, 227, 0);
     font-size: 11px;
     font-weight: 500;
     letter-spacing: 0.5px;
@@ -140,16 +140,11 @@
 .nv4btn i {
     margin-bottom: 2px;
 }
-
-.nv4btn:hover {
-    background-color: rgba(255, 255, 255, 0.763);
-    box-shadow: 0px 15px 20px rgba(32, 32, 32, 0.511);
-    color: #000;
-    transform: translateY(-7px);
+.nv4btn:hover p {
+    color: rgba(222, 164, 57, 0.635);
 }
-
 .nv4btn:hover a {
-    color: #000;
+    color: rgba(222, 164, 57, 0.635);
 }
 
 /* social-media */
@@ -172,7 +167,7 @@
 
 .nvscl-ul {
     list-style-type: none;
-
+    padding: 0;
 }
 
 .nvscl-ul a {
@@ -180,6 +175,9 @@
     color: #282327;
     float: left;
     margin-right: 5px;
+}
+.nvscl-ul a:hover {
+    color:rgb(187, 12, 88);
 }
 
 /* nav - end */
@@ -572,13 +570,12 @@
     margin-left: 0;
     margin-right: 0;
     margin-top: 21px;
-    background-color: rgb(227,227,227);
+    background-color: rgb(227,227,227,0);
     width: 100%;
     height: 124px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-top: 2px solid black;
 }
 
 .ftr {
@@ -703,5 +700,17 @@
 
 .dropdown-links a {
     text-decoration: none;
-    color: rgb(0, 0, 0, .3);
+    color: rgb(0, 0, 0, .7);
+}
+
+.dropdown-links a:hover {
+    color: rgb(0, 0, 0,.3);
+}
+
+/* changeNav nav scrolled */
+
+.changeNav {
+    background-color: #fff;
+    border: 0;
+    box-shadow: 0px 2px 5px rgb(0,0,0,.1);
 }
