@@ -7,21 +7,24 @@ B270A2 + tone
 
 form yapısı;
 <div class="dstk_card">
-            <span>
+         <span>
                 <h5>Soru ve Önerileriniz<br> için<br>İletişime Geçin</h5>
-            </span>
-            <form action="">
-                <label for="fname">AD</label>
+        </span>
+        <form action="">
+            <label for="fname">AD
+            </label>
                 <input type="text" id="fname" name="fname"><br>
-                <label for="lname" style="margin-top:-7px;">SOYAD</label>
+            <label for="lname" style="margin-top:-7px;">SOYAD
+            </label>
                 <input type="text" id="lname" name="lname">
-                <label for="comment" style="margin-top: 5px;">SORU/ÖNERİ</label>
+            <label for="comment" style="margin-top: 5px;">SORU/ÖNERİ
+            </label>
                 <textarea name="comment" id="comment" cols="50" rows="10"></textarea>
                 <button>
                     <a href="">Gönder</a>
                 </button>
-            </form>
-        </div>
+         </form>
+</div>
 
 
 form yapısı css;
