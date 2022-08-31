@@ -7,6 +7,7 @@
     <title> DP | Skills</title>
     <link rel="stylesheet" href="/style/skills.css">
     <link rel="stylesheet" href="/style/fontawesome-free-6.1.2-web/css/all.min.css">
+    <script src="/js/script.js" defer></script>
 </head>
 <body>
         <!-- nav -->
@@ -37,11 +38,24 @@
                                 <li><i class="fa fa-home" style="margin-right: 5px;"></i><br>Home</li>
                             </a>
                         </button>
-                        <button class="nv4btn">
-                            <a href="/html/skills.html">
-                                <li><i class="fa-solid fa-bullseye"></i><br> Skılls</li>
-                            </a>
-                        </button>
+                        <div class="dropdown" data-dropdown>
+                            <button class="nv4btn" data-dropdown-button>
+                                    <i class="fa-solid fa-bullseye"></i>Skılls
+                            </button>
+                            <div class="dropdown-menu information-grid">
+                                <div>
+                                    <div class="dropdown-links">
+                                        <a href="#" class="link">CSS3</a>
+                                        <a href="#" class="link">HTML5</a>
+                                        <a href="#" class="link">BOOTSTRAP</a>
+                                        <a href="#" class="link">JAVASCRIPT</a>
+                                        <a href="#" class="link">PYTHON</a>
+                                        <a href="#" class="link">REACT</a>
+                                        <a href="/html/skills.html">All skills</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <button class="nv4btn">
                             <a href="projects.html">
                                 <li><i class="fa-solid fa-bars-progress"></i> Projects</li>
