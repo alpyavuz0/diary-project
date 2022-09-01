@@ -566,7 +566,7 @@
 /* form end */
 /* footer-- */
 #fttr {
-    margin-bottom: 0;
+    margin-bottom: 0 !important ;
     margin-left: 0;
     margin-right: 0;
     margin-top: 21px;

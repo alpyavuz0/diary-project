@@ -1,4 +1,7 @@
 /* main */
+* {}
+
+
 body {
     margin: auto;
     background-color: #fff;
@@ -190,6 +193,7 @@ body {
 /* container */
 .container {
     display: flex;
+    min-width: calc(100% - 2.5rem);
 }
 
 .ffs {
@@ -242,11 +246,16 @@ body {
 
 /* container -- first look end */
 /* welcome */
+.standart {
+    display: flex;
+    justify-content: center;
+}
 .welcome {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    min-width: (100% - 2.5rem);
     justify-content: center;
+    width: 560px;
 }
 
 .wwr {
