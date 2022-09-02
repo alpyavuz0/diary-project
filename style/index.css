@@ -14,7 +14,7 @@ body {
 .nav {
     margin-top: 0px;
     height: 54px;
-    background-color: rgb(227, 227, 227);
+    background-color: rgb(42, 41, 41);
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -24,7 +24,7 @@ body {
     200ms ease-in-out color;
     font-size: 1rem;
     font-weight: bold;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #fff;
 }
 
 /* nav-logo */
@@ -54,7 +54,6 @@ body {
     background-color: rgba(227, 227, 227, 0);
     font-size: 18px;
     font-weight: 500;
-    color: #000;
     border: none;
     transition: all 0.1s ease 0s;
     cursor: pointer;
@@ -62,18 +61,14 @@ body {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    color: #282327;
+    color: rgba(222, 164, 57, 0.635);
     float: left;
     margin-left: 14px;
     margin-top: 9px;
 }
 
 .logo-btn:hover {
-    color: rgba(222, 164, 57, 0.635);
-}
-
-.logo-btn:hover a {
-    color: #000;
+    color: #fff;
 }
 
 /* nav-slogan*/
@@ -112,7 +107,7 @@ body {
 
 .nv4btn a {
     text-decoration: none;
-    color: #000;
+    color: rgba(222, 164, 57, 0.635);
     text-align: center;
 
 }
@@ -130,14 +125,13 @@ body {
     font-size: 11px;
     font-weight: 500;
     letter-spacing: 0.5px;
-    color: #000;
+    color: rgba(222, 164, 57, 0.635);
     border: none;
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
     text-transform: uppercase;
     text-decoration: none;
-    color: #282327;
     float: left;
     margin-right: 15px;
 }
@@ -147,11 +141,11 @@ body {
 }
 
 .nv4btn:hover p {
-    color: rgba(222, 164, 57, 0.635);
+    color: #fff;
 }
 
 .nv4btn:hover a {
-    color: rgba(222, 164, 57, 0.635);
+    color: #fff;
 }
 
 /* social-media */
@@ -179,13 +173,13 @@ body {
 
 .nvscl-ul a {
     text-decoration: none;
-    color: #282327;
+    color: rgba(222, 164, 57, 0.635);
     float: left;
     margin-right: 5px;
 }
 
 .nvscl-ul a:hover {
-    color: rgb(187, 12, 88);
+    color: #fff;
 }
 
 /* nav - end */
@@ -201,13 +195,13 @@ body {
     height: 400px;
     flex-direction: row;
     width: 100%;
-    background-color: rgb(227, 227, 227);
+    background-color: rgb(42, 41, 41);
     padding-bottom: 20px;
-    border-bottom: 2px solid black;
-    background-image: url(/media/6M8G.gif);
+    border-bottom: 2px solid white;
+    background-image: url(/media/—Pngtree—devices\ responsive\ web\ design_3540001.png);
     background-repeat: no-repeat;
     background-size: auto 100%;
-    background-position-x: -20px;
+    background-position-x: +150px;
     margin-top: 27px;
     min-width: 832px;
     align-items: center;
@@ -234,8 +228,8 @@ body {
 .ttx-2 {
     display: flex;
     flex-direction: column;
-    color: rgba(0, 0, 0, 0.853);
-    text-shadow: 3px 3px 6px rgba(91, 91, 91, 0.546);
+    color: rgba(222, 164, 57, 0.635);
+    text-shadow: 3px 3px 6px rgba(179, 178, 178, 0.546);
     justify-content: center;
 }
 
@@ -400,6 +394,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .btnsj {
@@ -469,7 +464,7 @@ body {
     font-size: 11px;
     font-weight: 500;
     letter-spacing: 0.5px;
-    color: #fff;
+    color: #000;
     border: none;
     transition: all 0.3s ease 0s;
     cursor: pointer;
@@ -481,17 +476,8 @@ body {
 .btn-alt:hover {
     background-color: rgba(7, 152, 222, 0.763);
     box-shadow: 0px 15px 20px rgba(48, 78, 195, 0.611);
-    color: #000;
-    transform: translateY(-7px);
-}
-
-.btn-alt a {
-    color: rgba(0, 0, 0, 0.853);
-    text-decoration: none;
-}
-
-.btn-alt:hover a {
     color: #fff;
+    transform: translateY(-7px);
 }
 
 /* altbaslık--end */
@@ -575,6 +561,12 @@ body {
     margin-top: 14px;
 }
 
+.cd-btn a {
+    text-decoration: none;
+}
+.cd-btn a:hover {
+    color: #fff;
+}
 .cd-btn-1 {
     display: flex;
     flex-direction: column;
@@ -590,7 +582,7 @@ body {
     font-size: 11px;
     font-weight: 500;
     letter-spacing: 0.5px;
-    color: #fff;
+    color: #000;
     border: none;
     transition: all 0.3s ease 0s;
     cursor: pointer;
@@ -602,18 +594,10 @@ body {
 .cd-btn-1:hover {
     background-color: rgba(7, 152, 222, 0.763);
     box-shadow: 0px 15px 20px rgba(48, 78, 195, 0.611);
-    color: #000;
+    color: #fff;
     transform: translateY(-7px);
 }
 
-.cd-btn-1 a {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.853);
-}
-
-.cd-btn-1:hover a {
-    color: #fff;
-}
 
 /* container-3 -- end */
 
@@ -635,7 +619,7 @@ body {
     margin-left: 0;
     margin-right: 0;
     margin-top: 21px;
-    background-color: rgb(227,227,227,0);
+    background-color: rgb(42, 41, 41);
     width: 100%;
     height: 124px;
     display: flex;
@@ -659,6 +643,7 @@ body {
     justify-content: center;
     font-size: 24px;
 }
+
 .empty {
     width: 40%;
     display: flex;
@@ -699,7 +684,7 @@ body {
 }
 .ftrscl-ul a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.853);
+    color: rgba(222, 164, 57, 0.635);
 }
 
 .imza {
@@ -711,7 +696,7 @@ body {
     margin-top: 0px;
     font-size: 9px;
     font-weight: 600;
-    color: rgba(91, 91, 91, 0.778);
+    color: rgba(222, 164, 57, 0.635);
     letter-spacing: 0.2px;
     font-family: 'Roboto', sans-serif;
 }
@@ -725,9 +710,9 @@ body {
 
 .dropdown-menu {
     position: absolute;
-    left: 6.4rem;
-    top: calc(100% + 2.25rem);
-    background-color: white;
+    left: 6.7rem;
+    top: calc(100% + 3rem);
+    background-color: rgb(42,41,41);
     padding: .5rem;
     border-radius: .25rem;
     box-shadow: 0 2px 5px 0 rgb(0,0,0,.1);
@@ -762,14 +747,16 @@ body {
     font-size: 13px;
 }
 
-.link {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+.dropdown-links a {
     font-weight: 600;
+    text-decoration: none;
+    color: rgba(222, 164, 57, 0.435);
 }
+
 .dropdown-links a:hover {
-    color: rgba(0, 0, 0, 0.3);
+    color: #fff;
 }
+
 /* changeColor nav scrolled */
 
 .changeColor {

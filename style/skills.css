@@ -10,8 +10,8 @@
 .nav {
     margin-top: 0px;
     height: 54px;
-    background-color: #fff;
-    border-bottom: 2px solid #282327;
+    background-color: rgb(42,41,41);
+    border-bottom: 2px solid #fff;
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -49,7 +49,7 @@
     background-color: rgba(227, 227, 227, 0);
     font-size: 18px;
     font-weight: 500;
-    color: #000;
+    color: rgba(222, 164, 57, 0.635);
     border: none;
     transition: all 0.3s ease 0s;
     cursor: pointer;
@@ -57,19 +57,15 @@
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    color: #282327;
     float: left;
     margin-left: 14px;
     margin-top: 9px;
 }
 
 .logo-btn:hover {
-    color: rgba(222, 164, 57, 0.635);
+    color: #fff;
 }
 
-.logo-btn:hover a {
-    color: #000;
-}
 
 /* nav-slogan*/
 .nv3 {
@@ -107,7 +103,7 @@
 
 .nv4btn a {
     text-decoration: none;
-    color: #000;
+    color: rgba(222, 164, 57, 0.635);
     text-align: center;
 
 }
@@ -125,7 +121,7 @@
     font-size: 11px;
     font-weight: 500;
     letter-spacing: 0.5px;
-    color: #000;
+    color: rgba(222, 164, 57, 0.635);
     border: none;
     transition: all 0.3s ease 0s;
     cursor: pointer;
@@ -133,7 +129,6 @@
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    color: #282327;
     float: left;
     margin-right: 15px;
 }
@@ -141,10 +136,10 @@
     margin-bottom: 2px;
 }
 .nv4btn:hover p {
-    color: rgba(222, 164, 57, 0.635);
+    color: #fff;
 }
 .nv4btn:hover a {
-    color: rgba(222, 164, 57, 0.635);
+    color: #fff;
 }
 
 /* social-media */
@@ -172,12 +167,12 @@
 
 .nvscl-ul a {
     text-decoration: none;
-    color: #282327;
+    color: rgba(222, 164, 57, 0.635);
     float: left;
     margin-right: 5px;
 }
 .nvscl-ul a:hover {
-    color:rgb(187, 12, 88);
+    color:#fff;
 }
 
 /* nav - end */
@@ -570,7 +565,7 @@
     margin-left: 0;
     margin-right: 0;
     margin-top: 21px;
-    background-color: rgb(227,227,227,0);
+    background-color: rgb(42,41,41);
     width: 100%;
     height: 124px;
     display: flex;
@@ -634,7 +629,7 @@
 }
 .ftrscl-ul a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.853);
+    color: rgba(222, 164, 57, 0.635);
 }
 
 .imza {
@@ -646,7 +641,7 @@
     margin-top: 0px;
     font-size: 9px;
     font-weight: 600;
-    color: rgba(91, 91, 91, 0.778);
+    color: rgba(222, 164, 57, 0.635);
     letter-spacing: 0.2px;
     font-family: 'Roboto', sans-serif;
 }
@@ -661,9 +656,9 @@
 
 .dropdown-menu {
     position: absolute;
-    left: 6.4rem;
-    top: calc(100% + 2.25rem);
-    background-color: white;
+    left: 6.7rem;
+    top: calc(100% + 3rem);
+    background-color: rgb(42,41,41);
     padding: .5rem;
     border-radius: .25rem;
     box-shadow: 0 2px 5px 0 rgb(0,0,0,.1);
@@ -701,11 +696,11 @@
 .dropdown-links a {
     font-weight: 600;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgba(222, 164, 57, 0.435);
 }
 
 .dropdown-links a:hover {
-    color: rgb(0, 0, 0,.3);
+    color: #fff;
 }
 
 /* changeNav nav scrolled */
