@@ -278,10 +278,20 @@
     text-indent: 1.5rem;
     margin: 1rem 1.5rem;
     align-items: center;
+    border-bottom: 1px solid rgba(42, 41, 41, .5);
 }
 .sp3 img {
     width: 90%;
     margin: .5rem auto;
+}
+
+.sp-end {
+    font-size: .75rem;
+    align-items: flex-start;
+    margin: 1rem 1.5rem;
+    width: 90%;
+    color: rgba(32, 32, 32, 0.5);
+    font-style: italic;
 }
 #sp1 {
     display: flex;
