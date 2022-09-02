@@ -699,8 +699,9 @@
 }
 
 .dropdown-links a {
+    font-weight: 600;
     text-decoration: none;
-    color: rgb(0, 0, 0, .7);
+    color: rgb(0, 0, 0);
 }
 
 .dropdown-links a:hover {
