@@ -451,6 +451,13 @@
     border: 0;
 }
 
+.changeNav a:hover {
+    color: #000;
+}
+
+.changeNav p:hover {
+    color: #000;
+}
 
 /* footer-- */
 #fttr {

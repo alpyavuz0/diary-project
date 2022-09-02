@@ -404,8 +404,8 @@ body {
     align-items: center;
     border-radius: 2px;
     border-style: none;
-    width: 130px;
-    height: 35px;
+    width: 100px;
+    height: 30px;
     background-color: rgba(0, 0, 0, 0.853);
     box-shadow: 0px 8px 15px rgba(91, 91, 91, 0.546);
     font-size: 11px;
@@ -428,7 +428,7 @@ body {
     background-color: rgba(255, 255, 255, 0.763);
     box-shadow: 0px 15px 20px rgba(32, 32, 32, 0.511);
     color: #000;
-    transform: translateY(-7px);
+    transform: translateY(0);
 }
 
 .btnsj:hover a {
@@ -459,12 +459,12 @@ body {
     border-style: none;
     width: 130px;
     height: 35px;
-    background-color: rgba(255, 241, 9, 0.853);
-    box-shadow: 0px 8px 15px rgba(222, 164, 57, 0.635);
+    background-color: rgba(42, 41, 41);
+    box-shadow: 0px 8px 15px rgba(46, 46, 46, 0.635);
     font-size: 11px;
     font-weight: 500;
     letter-spacing: 0.5px;
-    color: #000;
+    color: #fff;
     border: none;
     transition: all 0.3s ease 0s;
     cursor: pointer;
@@ -474,8 +474,8 @@ body {
 }
 
 .btn-alt:hover {
-    background-color: rgba(7, 152, 222, 0.763);
-    box-shadow: 0px 15px 20px rgba(48, 78, 195, 0.611);
+    background-color: rgba(222, 164, 57, 0.635);
+    box-shadow: 0px 15px 20px rgba(195, 131, 48, 0.611);
     color: #fff;
     transform: translateY(-7px);
 }
@@ -577,12 +577,12 @@ body {
     border-style: none;
     width: 130px;
     height: 35px;
-    background-color: rgba(255, 241, 9, 0.853);
-    box-shadow: 0px 8px 15px rgba(222, 164, 57, 0.635);
+    background-color: rgba(42, 41, 41);
+    box-shadow: 0px 8px 15px rgba(46, 46, 46, 0.635);
     font-size: 11px;
     font-weight: 500;
     letter-spacing: 0.5px;
-    color: #000;
+    color: #fff;
     border: none;
     transition: all 0.3s ease 0s;
     cursor: pointer;
@@ -592,8 +592,8 @@ body {
 }
 
 .cd-btn-1:hover {
-    background-color: rgba(7, 152, 222, 0.763);
-    box-shadow: 0px 15px 20px rgba(48, 78, 195, 0.611);
+    background-color: rgba(222, 164, 57, 0.635);
+    box-shadow: 0px 15px 20px rgba(195, 131, 48, 0.611);
     color: #fff;
     transform: translateY(-7px);
 }
@@ -764,4 +764,12 @@ body {
     box-shadow: 0px 2px 5px rgb(0,0,0,.1);
     color: #000;
     border: 0;
+}
+
+.changeColor a:hover {
+    color: #000;
+}
+
+.changeColor p:hover {
+    color: #000;
 }
