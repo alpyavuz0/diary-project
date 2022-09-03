@@ -7,9 +7,6 @@ B270A2 + tone
 
 form yapısı;
 <div class="dstk_card">
-         <span>
-                <h5>Soru ve Önerileriniz<br> için<br>İletişime Geçin</h5>
-        </span>
         <form action="">
             <label for="fname">AD
             </label>
@@ -114,5 +111,3 @@ form yapısı css;
     color: #fff;
     text-decoration: none;
 }
-
-                            My CSS knowledge is intermediate. I took CSS training from Patika, freeCodeCamp and The Odin Project training sites. My first CSS3 station was pastika. I learned so much about css on patika. Theacher name is Hakan Yalcinkaya and he is explain all things for your level.
