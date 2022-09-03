@@ -15,7 +15,7 @@ body {
     min-width: 767px;
     width: 100%;
     transition: 200ms ease-in-out background-color,
-    200ms ease-in-out color;
+        200ms ease-in-out color;
     font-size: 1rem;
     font-weight: bold;
     border-bottom: 2px solid #fff;
@@ -157,7 +157,7 @@ body {
     text-align: center;
     margin-top: auto;
     max-width: 767px;
-    
+
 }
 
 .nvscl-ul {
@@ -186,23 +186,23 @@ body {
     position: absolute;
     left: 6.7rem;
     top: calc(100% + 3rem);
-    background-color: rgb(42,41,41);
+    background-color: rgb(42, 41, 41);
     padding: .5rem;
     border-radius: .25rem;
-    box-shadow: 0 2px 5px 0 rgb(0,0,0,.1);
+    box-shadow: 0 2px 5px 0 rgb(0, 0, 0, .1);
     opacity: 0;
     pointer-events: none;
     transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
     transform: translateY(-10px);
 }
 
-.dropdown.active > .nv4btn + .dropdown-menu {
-    opacity: 1; 
+.dropdown.active>.nv4btn+.dropdown-menu {
+    opacity: 1;
     transform: translateY(0);
     pointer-events: auto;
 }
 
-.dropdown.active > .nv4btn,
+.dropdown.active>.nv4btn,
 .nv4btn:hover {
     color: black;
 }
@@ -213,7 +213,7 @@ body {
     gap: 2rem;
 }
 
-.dropdown-links  {
+.dropdown-links {
     display: flex;
     flex-direction: column;
     gap: .25rem;
@@ -236,7 +236,7 @@ body {
 .changeNav {
     background-color: #fff;
     border: 0;
-    box-shadow: 0px 2px 5px rgb(0,0,0,.1);
+    box-shadow: 0px 2px 5px rgb(0, 0, 0, .1);
 }
 
 .changeNav a:hover {
@@ -253,25 +253,28 @@ body {
 .header-container {
     display: flex;
 }
+
 .head {
     width: 100%;
     margin-top: 5rem;
     justify-content: center;
-    border-bottom: 2px solid rgb(227,227,227,.6);
+    border-bottom: 2px solid rgb(227, 227, 227, .6);
 }
+
 .head span {
     width: 50%;
     align-items: center;
     text-align: center;
     font-size: 21px;
-    text-shadow: 1px 5px 5px rgba(32, 32, 32, 0.511) ;
+    text-shadow: 1px 5px 5px rgba(32, 32, 32, 0.511);
 }
+
 /* head end */
 
 /* contacts-info start */
 
 .contacts-container {
-    display:flex;
+    display: flex;
 }
 
 .contacts-info {
@@ -279,7 +282,7 @@ body {
     flex-direction: row;
     width: 100%;
     border-bottom: 2px solid rgb(227, 227, 227, 0.6);
-   
+
 }
 
 .info {
@@ -305,7 +308,7 @@ body {
     margin-top: .5rem;
 }
 
-.right  {
+.right {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -313,6 +316,7 @@ body {
     justify-content: center;
     font-size: 14px;
 }
+
 /* contacts-info end */
 
 /* head-2 start */
@@ -327,9 +331,10 @@ body {
     justify-content: center;
     margin: 2rem;
     font-size: 21px;
-    text-shadow: 1px 5px 5px rgba(32, 32, 32, 0.511) ;
+    text-shadow: 1px 5px 5px rgba(32, 32, 32, 0.511);
     font-weight: 600;
 }
+
 /* head-2 end */
 
 /* form start */
@@ -352,8 +357,9 @@ body {
     font-size: 14px;
     align-items: center;
     margin-top: 2.5rem;
-    
+
 }
+
 .dstk_card form textarea {
     width: 440px;
     border: 1px solid rgba(32, 32, 32, 0.511);
@@ -364,6 +370,7 @@ body {
     padding-top: 13px;
     padding-right: 13px;
 }
+
 .dstk_card form input {
     width: 430px;
     height: 27px;
@@ -373,7 +380,7 @@ body {
     margin-top: 5px;
     padding-left: 13px;
     padding-right: 13px;
-    
+
 }
 
 .dstk_card form button {
@@ -397,15 +404,18 @@ body {
     text-transform: uppercase;
 
 }
+
 .dstk_card form button:hover {
     background-color: rgba(222, 164, 57, 0.635);
     box-shadow: 0px 15px 20px rgba(195, 131, 48, 0.611);
     transform: translateY(0px);
 }
+
 .dstk_card form button a {
     text-decoration: none;
     color: #fff;
 }
+
 .dstk_card form button:hover a {
     color: #000;
     text-decoration: none;
@@ -468,20 +478,25 @@ body {
     margin-right: 0;
     min-width: 236px;
 }
+
 .ftrscl-ul i {
     font-size: 27px;
 }
+
 .ftrscl-ul {
     display: flex;
     flex-direction: column;
 }
+
 .ftrscl-ul ul {
     list-style-type: none;
 }
+
 .ftrscl-ul li {
     float: left;
-    margin-right:15px ;
+    margin-right: 15px;
 }
+
 .ftrscl-ul a {
     text-decoration: none;
     color: rgba(222, 164, 57, 0.635);
@@ -500,4 +515,5 @@ body {
     letter-spacing: 0.2px;
     font-family: 'Roboto', sans-serif;
 }
+
 /* footer -- end */

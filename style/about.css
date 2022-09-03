@@ -1,7 +1,6 @@
 body {
-    margin: 0;
     background-color: #fff;
-    font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 /* nav-main */
@@ -15,7 +14,7 @@ body {
     min-width: 767px;
     width: 100%;
     transition: 200ms ease-in-out background-color,
-        200ms ease-in-out color;
+    200ms ease-in-out color;
     font-size: 1rem;
     font-weight: bold;
     border-bottom: 2px solid #fff;
@@ -157,7 +156,7 @@ body {
     text-align: center;
     margin-top: auto;
     max-width: 767px;
-
+    
 }
 
 .nvscl-ul {
@@ -186,23 +185,23 @@ body {
     position: absolute;
     left: 6.7rem;
     top: calc(100% + 3rem);
-    background-color: rgb(42, 41, 41);
+    background-color: rgb(42,41,41);
     padding: .5rem;
     border-radius: .25rem;
-    box-shadow: 0 2px 5px 0 rgb(0, 0, 0, .1);
+    box-shadow: 0 2px 5px 0 rgb(0,0,0,.1);
     opacity: 0;
     pointer-events: none;
     transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
     transform: translateY(-10px);
 }
 
-.dropdown.active>.nv4btn+.dropdown-menu {
-    opacity: 1;
+.dropdown.active > .nv4btn + .dropdown-menu {
+    opacity: 1; 
     transform: translateY(0);
     pointer-events: auto;
 }
 
-.dropdown.active>.nv4btn,
+.dropdown.active > .nv4btn,
 .nv4btn:hover {
     color: black;
 }
@@ -213,7 +212,7 @@ body {
     gap: 2rem;
 }
 
-.dropdown-links {
+.dropdown-links  {
     display: flex;
     flex-direction: column;
     gap: .25rem;
@@ -231,23 +230,24 @@ body {
     color: #fff;
 }
 
-/* changeNav nav scrolled */
+/* changeColor nav scrolled */
 
-.changeNav {
+.changeColor {
     background-color: #fff;
+    box-shadow: 0px 2px 5px rgb(0,0,0,.1);
+    color: #000;
     border: 0;
-    box-shadow: 0px 2px 5px rgb(0, 0, 0, .1);
 }
 
-.changeNav a:hover {
+.changeColor a:hover {
     color: #000;
 }
 
-.changeNav p:hover {
+.changeColor p:hover {
     color: #000;
 }
 
-/* nav endd */
+/* nav - end */
 
 /* head start */
 .header-container {
@@ -258,7 +258,7 @@ body {
     width: 100%;
     margin-top: 5rem;
     justify-content: center;
-    border-bottom: 1px solid rgb(0, 0, 0, .1);
+    border-bottom: 2px solid rgb(227, 227, 227, .6);
 }
 
 .head span {
@@ -271,43 +271,30 @@ body {
 
 /* head end */
 
-/* container start */
-.container {
+/* containers start */
+.main-container {
     display: flex;
 }
 
-.products-container {
+.container {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-top: 2.5rem;
     justify-content: center;
-}
+} 
 
-.products {
+.container-spans    {
     display: flex;
     flex-direction: row;
     width: 80%;
-    border-style: 0;
-    border-right: 2px solid rgba(227, 227, 227, .3);
-    border-left: 2px solid rgba(227, 227, 227, .3);
-    border-radius: .5rem;
+    justify-content: flex-start;
+    margin-top: 3.5rem;
+    border-right: 2px solid (227, 227, 227, .6);
+    border-left: 2px solid (227, 227, 227, .6);
     flex-wrap: wrap;
-    padding: 15px 20px;
 }
-
-.products img {
-    width: 90%;
-    margin: .5rem;
-}
-
-.products div {
-    width: 100%;
-    font-weight: 600;
-    font-size: 18px;
-    display: flex;
-    margin: .5rem;
-    font-size: 14px;
+.container-spans span {
+    text-align: start;
 }
 
 .sp-end {
@@ -319,7 +306,7 @@ body {
     font-style: italic;
 }
 
-/* container end */
+/* containers end */
 
 /* footer-- */
 #fttr {
