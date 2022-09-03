@@ -1,6 +1,6 @@
 # DİARY PROJECT
 
-Hey, my name is Alper and i'm 19 years old. I'm new at here (actually one years but new :)). I'm trying to learn front end so i make projects like this.
+Hey, my name is Alper and i'm 19 years old.  I'm trying to learn front end so i made a project like this.
 
 Diary Projects my sixth project if you are wondering about others just look at my page. 
 
@@ -18,7 +18,6 @@ Pages name are ;
 - Home
 - Projects
 - Skills
-    
     - CSS3
     - HTML5
     - BOOTSTRAP
@@ -33,12 +32,7 @@ Pages name are ;
 
 ![pages-images](/media/ezgif.com-gif-maker.gif)
 
-I used flex, grid and javascript (little bit) when i made a this pages.
-
-
-### I HOPE YOU LIKE THIS :))
-
-#### You can follow me for more and work together
+#### Social Media links
 
 [Instagram](https://www.instagram.com/alpyvz.00/)
 
@@ -46,16 +40,3 @@ I used flex, grid and javascript (little bit) when i made a this pages.
 
 [LinkedIn](https://www.linkedin.com/in/alper-yavuz-9a3b26248/)
 
-#### Sites I look at while working;
-
-- patika.dev
-- freeCodeCamp
-- Udemy
-- LeonNoel on YouTube
-- Bilgisayar Kavramlari on YouTube
-- w3schools.com
-- css3-tricks
-- Hacker-rank
-
-
-# END -- 
