@@ -1,4 +1,4 @@
-# DİARY PROJECT
+# DIARY PROJECT
 
 Hey, my name is Alper and i'm 19 years old. I'm new at here (actually one years but new :)). I'm trying to learn front end so i make projects like this.
 
