@@ -1,4 +1,4 @@
-# DİARY PROJECT
+# DIARY PROJECT
 
 Hey, my name is Alper and i'm 19 years old.  I'm trying to learn front end so i made a project like this.
 
@@ -40,3 +40,19 @@ Pages name are ;
 
 [LinkedIn](https://www.linkedin.com/in/alper-yavuz-9a3b26248/)
 
+<<<<<<< HEAD
+=======
+#### Sites I look at while working;
+
+- patika.dev
+- freeCodeCamp
+- Udemy
+- LeonNoel on YouTube
+- Bilgisayar Kavramlari on YouTube
+- w3schools.com
+- css3-tricks
+- Hacker-rank
+
+
+# END -- 
+>>>>>>> 7d623a0326c20c4617bcf3a301c0af4d9950d891
