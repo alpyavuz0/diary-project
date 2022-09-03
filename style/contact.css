@@ -257,13 +257,14 @@ body {
     width: 100%;
     margin-top: 5rem;
     justify-content: center;
-    border-bottom: 1px solid rgb(0,0,0,.1);
+    border-bottom: 2px solid rgb(227,227,227,.6);
 }
 .head span {
     width: 50%;
     align-items: center;
     text-align: center;
     font-size: 21px;
+    text-shadow: 1px 5px 5px rgba(32, 32, 32, 0.511) ;
 }
 /* head end */
 
@@ -326,6 +327,7 @@ body {
     justify-content: center;
     margin: 2rem;
     font-size: 21px;
+    text-shadow: 1px 5px 5px rgba(32, 32, 32, 0.511) ;
     font-weight: 600;
 }
 /* head-2 end */
